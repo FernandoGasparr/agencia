@@ -1,0 +1,29 @@
+
+
+
+.primary-btn:hover {
+    color: aliceblue;
+    border: 2px solid #1f2235;
+    background-color: aqua;
+  }
+  
+  .primary-btn {
+    color: var(--white);
+    color: white;
+    border: 2px solid linen;
+    font-size: 12px;
+    background-color: #1f2235;
+  }
+
+  .btn {
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Poppins SemiBold";
+  }
+
+  .btn:active {
+    transform: translateY(2px);
+  }

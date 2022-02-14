@@ -6,13 +6,15 @@ export default() =>{
     return (
      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Agência Travels</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a className="navbar-brand" href="#"> Favela Travels</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navgation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ">     
-            <ul className='nav-link'>
+
+        <div className="collapse navbar-collapse" id="navbarNav">
+					<div className="mx-auto"></div>
+					<ul className="navbar-nav">    
                 <li>
                     <Link to='/'>
                     <a>Home</a>
@@ -37,7 +39,6 @@ export default() =>{
                     </Link>
                 </li>
             </ul>
-        </div>
         </div>
         </div>
     </nav>

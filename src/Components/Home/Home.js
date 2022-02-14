@@ -53,11 +53,46 @@ export default() =>{
             </div>
         </div>
         
+        
+
+        <section className="about-area">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        
+                    </div>
+                    <br></br>
+                <div className="col md-6">
+                    <img className="img-fluid" src="https://assets.b9.com.br/wp-content/uploads/2017/08/meiacincodez-e-catsu_escritorio19.jpg" alt="Favela Travels"/>
+                </div>
+
+                <div className="col-md-6">
+                    <h3 className="about-tittle">Favela Travels - Nova Maneira de viajar </h3>
+                    <p> Nossas viagens são adaptadas para ao cliente e seu propósito</p>
+                <p>Com a Favela Travels você pode esquecer toda a burocracia de um financiamento</p>
+                <p>Nossos preços  são adequados ao público das períferias! Entretenimento e lazer com qualidade que a favela merece!.</p>
+                <p>Com a Favela Travels todo mundo pode viajar de avião, basta se programar!</p>
+                <p>Veja outros diferenciais:</p>
+
+                <ul id="about-list">
+                      <li><i class="bi bi-check"></i>Sem comprovação de renda</li>
+                      <li><i class="bi bi-check"></i>Diversos pontos de venda em todo Brasil.</li>
+                      <li><i class="bi bi-check"></i>Planejamos toda a sua viagem.</li>
+                      <li><i class="bi bi-check"></i>Ofertamos as vantagens de toda viagem pré-paga.</li>
+                </ul>
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
         <section>
 
-        <span className="profile-role-tagline">
-                Nossas Promoções !
-                </span>
+        <div className="col-12">
+              <h3 className="profile-role-tagline-card">Nossas Promoções </h3>
+            </div>
 
         <div className="card-group">
   <div className="card">
@@ -65,8 +100,16 @@ export default() =>{
     <div className="card-body">
       <h5 className="card-title">Trancoso - BA</h5>
       <p className="card-text">Venha Conhecer Trancoso.</p>
-      <p className="card-text"><small className="text-muted">Passagem aerea, terrestre e hospedagem ! </small></p>
-
+      
+      <div className="about-list">
+      <ul id="about-list">
+                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
+                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
+                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="bi bi-check"></i>All inclusive.</li>
+        </ul>
+        </div>
+        
       <div className="profile-options">
                     <buttons className="btn primary-btn">
                         {""}
@@ -81,7 +124,13 @@ export default() =>{
     <div className="card-body">
       <h5 className="card-title">Bonito - MS</h5>
       <p className="card-text">Venha conhecer Bonito.</p>
-      <p className="card-text"><small className="text-muted">Passagem aerea, terrestre e hospedagem !</small></p>
+    
+      <ul id="about-list">
+                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
+                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
+                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="bi bi-check"></i>All inclusive.</li>
+                    </ul>
 
       <div className="profile-options">
                     <buttons className="btn primary-btn">
@@ -98,7 +147,13 @@ export default() =>{
     <div className="card-body">
       <h5 className="card-title">Rio de Janeiro - RJ</h5>
       <p className="card-text"> Venha conhecer o Rio !</p>
-      <p className="card-text"><small className="text-muted">Passagem aerea, terrestre e hospedagem !</small></p>
+      
+      <ul id="about-list">
+                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
+                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
+                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="bi bi-check"></i>All inclusive.</li>
+                    </ul>
 
       <div className="profile-options">
                     <buttons className="btn primary-btn">

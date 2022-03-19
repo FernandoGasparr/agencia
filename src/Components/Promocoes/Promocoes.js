@@ -11,17 +11,17 @@ export default() =>{
               <h3 className="main-title">Nossos serviços</h3>
             </div>
             <div className="col-md-4 service-box">
-              <i className=" fa-solid fa-map"></i>             
+            <i class="fa fa-globe" aria-hidden="true"></i>           
               <h4>Pacotes</h4>
               <p>Pacotes incrivéis, ótimas opções para você economizar!</p>
             </div>
             <div className="col-md-4 service-box">
-              <i class="fa-solid fa-plane-departure"></i>
+            <i class="fa fa-fighter-jet" aria-hidden="true"></i>
               <h4>Transportes Aéreos</h4>
               <p>Os melhores destinos para você ao redor do mundo!</p>
             </div>
             <div class="col-md-4 service-box">
-              <i class="fa-solid fa-hotel"></i>  
+            <i class="fa fa-h-square" aria-hidden="true"></i>
               <h4>Hotéis</h4>
               <p>Milhares de hotéis, sua reserva confirmada nada hora. Sem burocracia!</p>
             </div>
@@ -37,14 +37,21 @@ export default() =>{
                   <div className="card">
                     <img src="https://thumbcdn-z.hotelurbano.net/wSur9hbIKOwgMZMPXEoebsw1BFo=/320x240/center/middle/filters:quality(40)/https://novo-hu.s3.amazonaws.com/reservas/ota/prod/hotel/2100/Capturar_20190201151338.jpg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                      <h5 className="card-title">Aracaju</h5>
+                      <h5 className="card-title">Aracaju SE</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>   
                   </div>
                 </div>
 
@@ -52,14 +59,20 @@ export default() =>{
                   <div className="card">
                     <img src="https://thumbcdn-z.hotelurbano.net/F1491MUCQw1yz0SKd6PuJQAnhwg=/320x240/center/middle/filters:quality(40)/https://novo-hu.s3.amazonaws.com/reservas/ota/prod/hotel/256/aerea-3_20190625181740.jpg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                      <h5 className="card-title">Florianopólis</h5>
+                      <h5 className="card-title">Florianopólis SC</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
                 <div className="col">
@@ -68,12 +81,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Boa Viagem PE</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -83,12 +102,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Vitória ES</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -96,14 +121,20 @@ export default() =>{
                   <div className="card">
                     <img src="https://thumbcdn-z.hotelurbano.net/OWmtu9Mz6-VbG59TLVrIZi283VM=/320x240/center/middle/filters:quality(40)/https://novo-hu.s3.amazonaws.com/reservas/ota/prod/hotel/517143/hotel-the-sun-001_20180831165016.jpg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                      <h5 className="card-title">Brasília</h5>
+                      <h5 className="card-title">Brasília GO</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -113,12 +144,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Teresina PI</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -128,12 +165,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Campinas SP</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -143,12 +186,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Belém PA</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -158,12 +207,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Arraial d'ajuda BA</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -173,12 +228,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Campina Grande PB</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -188,12 +249,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Jericoacara CE</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
 
@@ -203,12 +270,18 @@ export default() =>{
                     <div className="card-body">
                       <h5 className="card-title">Arraial do Cabo RJ</h5>
                       <ul id="about-list">
-                        <li><i className="fa-solid fa-check">Transporte aéreo</i></li>
-                        <li><i className="fa-solid fa-check">Transporte terrestre</i></li>
-                        <li><i className="fa-solid fa-check">Hospedagem com 05 diárias</i></li>
-                        <li><i className="fa-solid fa-check">All inclusive</i></li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem com 05 diárias</li>
+                        <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
                       </ul>
                     </div>
+                    <div className="profile-options">
+                    <buttons className="btn primary-btn">
+                        {""}
+                        COMPRAR {" "}
+                    </buttons>
+         </div>
                   </div>
                 </div>
                 

@@ -231,3 +231,7 @@ body {
     transition: all 0.8s ease;
   }
   
+
+  .li{
+    list-style-type: none;
+  }

@@ -11,19 +11,19 @@ export default() =>{
                     <div className="colz">
                     <div className='colz-icon'>
                         <a href="https://www.facebook.com/">
-                            <i className="fa fa-facebook-square"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.google.com/">
-                            <i className="fa fa-google-plus-square"></i>
+                        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.instagram.com/">
-                            <i className="fa fa-instagram-square"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.youtube.com/">
-                            <i className="fa fa-youtube-square"></i>
+                        <i class="fa fa-youtube-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.twitter.com/">
-                            <i className="fa fa-twitter"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
                         </a>
                     </div>
                     </div>
@@ -75,10 +75,10 @@ export default() =>{
                 <p>Veja outros diferenciais:</p>
 
                 <ul id="about-list">
-                      <li><i class="bi bi-check"></i>Sem comprovação de renda</li>
-                      <li><i class="bi bi-check"></i>Diversos pontos de venda em todo Brasil.</li>
-                      <li><i class="bi bi-check"></i>Planejamos toda a sua viagem.</li>
-                      <li><i class="bi bi-check"></i>Ofertamos as vantagens de toda viagem pré-paga.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Sem comprovação de renda</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Diversos pontos de venda em todo Brasil.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Planejamos toda a sua viagem.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Ofertamos as vantagens de toda viagem pré-paga.</li>
                 </ul>
                 </div>
 
@@ -99,14 +99,14 @@ export default() =>{
     <img src= 'https://thumbcdn-z.hotelurbano.net/pvIgS1KTitZasygnSsCoQCN-tms=/320x240/center/middle/filters:quality(40)/http://media.omnibees.com/Images/9289/Property/465426.PNG' className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">Trancoso - BA</h5>
-      <p className="card-text">Venha Conhecer Trancoso.</p>
+      <p className="card-text">Venha Conhecer Trancoso !</p>
       
       <div className="about-list">
       <ul id="about-list">
-                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
-                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
-                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
-                      <li><i class="bi bi-check"></i>All inclusive.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive</li>
         </ul>
         </div>
         
@@ -123,13 +123,13 @@ export default() =>{
     <img src="https://thumbcdn-z.hotelurbano.net/DOntwp60xCqPJhfjhbY_g5MMHsg=/320x240/center/middle/filters:quality(40)/http://media.omnibees.com/Images/11228/Property/586872.jpg" className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">Bonito - MS</h5>
-      <p className="card-text">Venha conhecer Bonito.</p>
+      <p className="card-text">Venha conhecer Bonito !</p>
     
       <ul id="about-list">
-                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
-                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
-                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
-                      <li><i class="bi bi-check"></i>All inclusive.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive.</li>
                     </ul>
 
       <div className="profile-options">
@@ -149,10 +149,10 @@ export default() =>{
       <p className="card-text"> Venha conhecer o Rio !</p>
       
       <ul id="about-list">
-                      <li><i class="bi bi-check"></i>Transporte aéreo</li>
-                      <li><i class="bi bi-check"></i>Transporte terrestre.</li>
-                      <li><i class="bi bi-check"></i>Hospedagem 05 diárias.</li>
-                      <li><i class="bi bi-check"></i>All inclusive.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte aéreo</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Transporte terrestre.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Hospedagem 05 diárias.</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>All inclusive.</li>
                     </ul>
 
       <div className="profile-options">
